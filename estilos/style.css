@@ -29,7 +29,7 @@ main{
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
-    background-color: #301994;
+    background-image:linear-gradient(to bottom,#9e50f2a5,#351868ae, #30199473,#f250ea77,#4732b08b) ;
     width: 250px;
     height: 526px;
     border-radius: 20px;
@@ -40,18 +40,25 @@ main{
 
 #imagem-formulario{
     display: block;
-    background:blueviolet url(../imagens/tela-login.jpg) no-repeat;
+    background:rgba(137, 43, 226, 0.599) url(../imagens/tela-login.jpg) no-repeat;
     height: 226px;
     background-size: cover;
     background-position: center bottom;
     background-position-y:-99px;
-    box-shadow:inset 0px -12px 6px 2px #301994;
+    box-shadow:inset 0px -12px 6px 2px #3019943a;
 }
 
 #formulario-login{
     display: block;
     padding: 10px;
     color: rgb(214, 214, 214);
+    
+}
+#formulario-login h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+#formulario-login p{
     
 }
 
