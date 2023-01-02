@@ -29,5 +29,9 @@
         float: right;
         width: 50%;
     }
+    #formulario-login p{
+        text-align: center;
+        font-size: 1.3em;
+       }
 
 }
